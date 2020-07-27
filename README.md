@@ -68,8 +68,8 @@ Details:
  Issues:
  =======
  
-  if we install docker inside jenkins which is already runnign docker, we face perimission access issuess of /var/run/docker.sock
-  .Git details are mandatory for the buid job of the gitClient application.
+1.   Installation of docker inside jenkins which is already runnign docker, we face perimission access issuess of /var/run/docker.sock
+2.   .Git details are mandatory for the buid job of the gitClient application.
  
  
  
