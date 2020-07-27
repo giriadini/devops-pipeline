@@ -1,6 +1,6 @@
 # devops-pipeline
 
-Devops-pipeline project is an example of CI pipeline.
+Devops-pipeline is a Spring Boot application with a RESTful webservice for retrieving versioning information. 
 
 Components:
 ==========
@@ -52,6 +52,7 @@ Details:
   1. In jenkins, role based strategy can be integrated by creating users and roles with specific access.
   2. In Docker, follow versioning and tagging to avoid dangling images.
   3. Used volumes to write the maven repo details in the shell scripts.
+  4. Spring security can be used to provide secuirty for the application.
   
   
   Webhooks:
@@ -69,6 +70,7 @@ Additional details:
 1.   Installation of docker inside jenkins which is already running on a docker, gives perimission access issuess of /var/run/docker.sock
 2.   .Git details are mandatory for the buid job of the gitClient application.
 3.    /root/.m2 and jenkins workspace need to be modified in mvn.sh scripts when the code is cloned. (Due to VM and h/w constraints, hardcoded these two details)
+
  
  
           
