@@ -68,7 +68,7 @@ Additional details:
  
 1.   Installation of docker inside jenkins which is already runnign docker, we face perimission access issuess of /var/run/docker.sock
 2.   .Git details are mandatory for the buid job of the gitClient application.
-3.    /root/.m2 and jenkins workspace need to modified in mvn.sh scripts when the code is cloned. ( because of vm constraints i have hardcoded these two details)
+3.    /root/.m2 and jenkins workspace need to modified in mvn.sh scripts when the code is cloned. ( because of VM and h/w constraints i have hardcoded these two details)
  
  
  Next apporach:  push jar to dockerhub, pull in remote machine and execute.
