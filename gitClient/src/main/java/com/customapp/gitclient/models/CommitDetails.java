@@ -1,5 +1,8 @@
 package com.customapp.gitclient.models;
 
+/**
+ *  value object class for CommitDetails
+ */
 
 public class CommitDetails {
 

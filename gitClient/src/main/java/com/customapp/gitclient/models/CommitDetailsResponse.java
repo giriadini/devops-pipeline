@@ -2,6 +2,10 @@ package com.customapp.gitclient.models;
 
 import java.util.List;
 
+/**
+ *  value object class for CommitDetailsResponse
+ */
+
 public class CommitDetailsResponse {
 
 

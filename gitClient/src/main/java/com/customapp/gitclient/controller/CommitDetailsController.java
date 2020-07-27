@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * Controller class to expose end point
+ */
+
 @RestController
 public class CommitDetailsController {
 

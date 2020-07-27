@@ -10,6 +10,9 @@ import org.mockito.InjectMocks;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.util.ReflectionTestUtils;
 
+/**
+ * test class for CommitDetailsController
+ */
 
 @RunWith(SpringRunner.class)
 public class CommitDetailsControllerTest {

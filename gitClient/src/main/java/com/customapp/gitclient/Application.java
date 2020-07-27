@@ -6,6 +6,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.core.io.ClassPathResource;
 
+
+/**
+ * Spring boot start up applicaion
+ */
 @SpringBootApplication
 public class Application {
 
