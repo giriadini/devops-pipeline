@@ -7,7 +7,7 @@ Components:
 
 1. Spring Boot Application - which displays commit details at an end point.
 2. Maven is the build tool used for building the application.
-3. Used maven:3-alpine maven image to build the code and generate jar file.  -----BUILD_TAG
+3. Used maven:3-alpine maven image to build the code and generate jar file.
 4. Used tomcat:10-jdk8-openjdk image to run the image in the container.
 5. Created docker-compose file to build the docker file.
 6. Created shell script to autmate the build and execution process.
