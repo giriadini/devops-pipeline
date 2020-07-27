@@ -3,6 +3,7 @@
 Devops-pipeline project is an example of CI pipeline.
 
 Components:
+==========
 
 1. Spring Boot Application - which displays commit details at an end point.
 2. Maven is the build tool used for building the application.
@@ -13,6 +14,7 @@ Components:
 7. Jenkins pipelines are used for integrating continuous delivery pipelines into Jenkins.
 
 Details:
+========
  
  spring boot application:
  
@@ -29,6 +31,7 @@ Details:
  Junit test is written to test the functionality of the application and placed in test folder.
  
  Containerisation:
+ ================
  
  1. Used maven docker container to build the application and generate the jar( mvn.sh script in build loction of jenkins folder in source code)
  2. Created Docker, docker-compose script to build the image.
@@ -41,13 +44,16 @@ Details:
  7. Excute the build, it executes in stages.
  
  Versioning of image: 
+ ==================
  used BUILD_TAG( global variables)  in the docker-compose file for versioning.
  
  security:
+ =========
   Inside jenkins, we can create roles, users and assign users only readonly and execute acces in jenkins.
   Follow verioning and tagging to avoid dangling images.
   
   Webhooks:
+  ==========
    Since jenkins is running on localhost , dint conigure gitwebhooks in git
    
    since tomcat and jenkins uses 8080, used different server address for the app.( using port forwarding in docker run command)
@@ -60,7 +66,10 @@ Details:
  
  
  Issues:
+ =======
+ 
   if we install docker inside jenkins which is already runnign docker, we face perimission access issuess of /var/run/docker.sock
+  .Git details are mandatory for the buid job of the gitClient application.
  
  
  
