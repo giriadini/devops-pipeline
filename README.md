@@ -71,9 +71,11 @@ Additional details:
 3.    /root/.m2 and jenkins workspace need to modified in mvn.sh scripts when the code is cloned. ( because of VM and h/w constraints i have hardcoded these two details)
  
  
- Next apporach:  push jar to dockerhub, pull in remote machine and execute.
+ Next apporach: 
  ============= 
- 
+               Jar has to be pushed to dockerhub or any artifactory for deployments.
+               
+               
  Based on the time constraints, dint enhance much on the scipts and other components.
  
  
