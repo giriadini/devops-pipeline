@@ -74,9 +74,7 @@ Additional details:
  Next apporach: 
  ============= 
                Jar has to be pushed to dockerhub or any artifactory for deployments.
-               
-               
- Based on the time constraints, dint enhance much on the scipts and other components.
+              
  
  
  
