@@ -42,6 +42,7 @@ Details:
       2. test
  6. Created jenkins pipeline in jenkins and configured git in the pipeline component.
  7. Execute the build-It executes in stages.
+ 8. Deployed the jar and tested the app.
  
  Versioning: 
  ==================
